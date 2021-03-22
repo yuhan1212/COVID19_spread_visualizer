@@ -19,8 +19,7 @@ covid_data＿by_country = covid_data.groupby("Country_Region").sum()[["Confirmed
 # print(covid_data＿by_country)
 
 """"Sort only the top Confirmed countries"""
-covid_top＿confirmed_country = covid_data＿by_country.nlargest
-(numbers_of_top_countries,"Confirmed")[["Confirmed"]]
+covid_top＿confirmed_country = covid_data＿by_country.nlargest(numbers_of_top_countries,"Confirmed")[["Confirmed"]]
 # print(covid_top＿confirmed_country)
 
 """"Drop those incomplete data (a.k.a. NA data)"""
