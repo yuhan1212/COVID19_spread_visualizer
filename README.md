@@ -1,4 +1,4 @@
-# COVID19 Spread Visulizer
+# COVID19 Spread Visualizer
 
 This project works on three different datasets and generates different dashboards.<br/>
 Through visualizing a bunch of data, we can better find out insight from them.
