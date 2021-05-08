@@ -5,8 +5,9 @@ Through visualizing a bunch of data, we can better find out insight from them.
 
 ### Features
 
-* An interactive live dashboard and analysis in Python 3.
-* Using flask and folium python packages.
+* Built an interactive live dashboard, integrated world map and marked region using Folium library.
+* Analyzed COVID19 spread datasets according to geographic location and infection cases using Pandas. 
+* Developed web app using Flask python packages, visualized the severity region-wise.
 
 ### Sources
 
